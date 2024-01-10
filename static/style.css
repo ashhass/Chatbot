@@ -148,7 +148,7 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: auto;
 	margin-left: 10px;
 	border-radius: 25px;
-	background-color: rgb(82, 172, 255);
+	background-color: white;
 	padding: 10px;
 	position: relative;
 }
@@ -219,3 +219,33 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: 15px !important;
 }
 }
+
+
+.loader {
+	border: 4px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 8px solid black;
+	width: 30px;
+	height: 30px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	display: none;
+  }
+
+  .loading{
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+  } 
