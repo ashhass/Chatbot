@@ -34,6 +34,6 @@ Steps to run:
 5. Add your OpenAI API key in a .env file
 6. On the terminal run the command below 
 
-     python app.py
+     `python app.py`
 
 7. App should not be running on localhost default port
