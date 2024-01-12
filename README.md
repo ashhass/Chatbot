@@ -20,12 +20,20 @@ Tools Used:
 Steps to run:
 
 1. Download this github repository
-2. Set your API key in Dockerfile
-3. Run the command below to build a docker image
+2. Create a virtual environment
 
-   `docker build -t ashhass/chatbot:0.0.1.RELEASE .`
-4. Create a docker container and host in port 3000
+     `python -m venv venv`
+3. Activate the virtual environment
 
-   `docker container run -d -p 3000:3000 ashhass/chatbot:0.0.1.RELEASE`
+    `source venv/bin/activate` or `venv/bin/activate` [for Windows]
 
-5. The chatbot should now be running on your localhost on port 3000
+4. Install the requirements
+
+   `pip install -r requirements.txt`
+
+5. Add your OpenAI API key in a .env file
+6. On the terminal run the command below 
+
+     python app.py
+
+7. App should not be running on localhost default port
