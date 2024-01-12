@@ -1,5 +1,6 @@
 import os
 import bs4
+import getpass
 from langchain import hub
 from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
