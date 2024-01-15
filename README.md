@@ -12,12 +12,8 @@ Tools Used:
 
 <br>
 
-<p align="center">
-<img align="center" width="555" alt="Screen Shot 2024-01-11 at 1 49 47 PM" src="https://github.com/ashhass/Chatbot/assets/53818655/e6b2d942-0db5-4d40-b05a-b70d2b5fd042" >
-</p>
 
-
-Steps to run:
+### **Steps to run:**
 
 1. Download this github repository
 2. Create a virtual environment
@@ -37,3 +33,9 @@ Steps to run:
      `python app.py`
 
 7. App should not be running on localhost default port
+
+<br><br>
+
+<p align="center">
+<img align="center" width="824" alt="Screen Shot 2024-01-11 at 1 49 47 PM" src="https://github.com/ashhass/Chatbot/assets/53818655/e6b2d942-0db5-4d40-b05a-b70d2b5fd042" >
+</p>
