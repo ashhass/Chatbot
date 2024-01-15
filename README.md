@@ -1,8 +1,8 @@
-# Chatbot_With_GUI
+# Chatbot_With_UI
 
-Simple chatbot with a web interface built to assist financial analysts with up-to-date information on the financial market.
+Simple chatbot with a flask web interface.
 
-The chatbot leverages openai LLM for user query comprehension with RAG inorder to answer queries on current status of the dynamic financial market.
+The chatbot leverages OpenAI API for user query comprehension complemented with RAG for up-to-date information retrieval.
 
 Tools Used: 
   1. LangChain framework: for user query synthesis and reply generation
